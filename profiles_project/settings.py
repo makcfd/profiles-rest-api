@@ -121,3 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+"""
+first specify app from which we are going to retrive the model => profiles_api
+and than name of the model that we are gonna use =>UserProfile
+
+"""
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
